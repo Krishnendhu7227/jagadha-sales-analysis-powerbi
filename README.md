@@ -38,7 +38,7 @@ The cleaned order table used in Power BI is named `Orders (2)`.
 |---|---|
 | Quarterly Revenue & Order Volume | Compares revenue performance with order activity across quarters. |
 | Top Products by Revenue | Highlights products contributing the most to displayed revenue. |
-| Revenue by Shipping Location | Compares sales value across geographic markets. |
+| Revenue by Shipping State Location | Compares sales value across geographic markets. |
 | Sales by Order Currency | Shows the displayed contribution of INR and USD orders. |
 
 ## 💡 Insights from the Charts
@@ -51,7 +51,7 @@ Revenue and order volume do not always move together. Higher revenue can result 
 
 Agnijith 90 gms and its multipack variants feature among the leading products in the displayed revenue ranking.
 
-### 3. Revenue by Shipping Location
+### 3. Revenue by Shipping State Location
 
 Kerala leads the displayed geographic ranking, with approximately ₹363K across 235 orders. Singapore shows approximately ₹211K across only four orders, highlighting the importance of considering order volume alongside revenue.
 
