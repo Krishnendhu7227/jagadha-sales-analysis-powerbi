@@ -14,7 +14,6 @@ Data preparation was performed using Power Query while preserving the original d
 - Reviewed data types, missing values, errors, and column quality.
 - Separated order and payment date/time information where required.
 - Standardized billing and shipping location details.
-- Merged cleaned location data using `order_id`.
 - Examined INR and USD transactions and historical exchange-rate requirements.
 - Preserved meaningful nulls, zero tax and discount values, and guest customer identifiers.
 - Reviewed product line-item data for product-level analysis.
