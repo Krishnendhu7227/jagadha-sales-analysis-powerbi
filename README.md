@@ -104,7 +104,6 @@ Location preparation was performed in Power Query on the `Orders (2)` table, whi
 - Used the standardized shipping fields: `Shipping_country_clean`, `Shipping_state_clean`, and `Shipping_city_clean`.
 - Compared billing and shipping city, state, and country across all orders.
 - Created a `Region Type` column to separate **India** orders from **International** orders.
-- Identified that the state field also contains overseas regions (for example Singapore, England, and US states), so state totals include international locations unless filtered.
 - Preserved guest customer identifiers (`customer_id = 0`) and used identified customers only for repeat-customer analysis.
 
 The `Region Type` column was created using:
