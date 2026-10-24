@@ -86,6 +86,8 @@ This project demonstrates how data cleaning, KPI analysis, and Power BI visualiz
 
 
 
+
+
 # jagadha-regional-sales-analysis-powerbi
 Location-wise sales analysis and Power BI dashboard for Jagadha by Padanjali, continuing the sales analysis project.
 
@@ -123,12 +125,11 @@ The `Region Type` column was created using:
 
 | Measure | Purpose |
 |---|---|
-| Orders Count | Counts distinct orders (`DISTINCTCOUNT` of `order_id`). |
+|Total  Orders | Counts distinct orders (`DISTINCTCOUNT` of `order_id`). |
 | Total Revenue | Sums converted order value in INR (`order_subtotal_INR2`). |
 | Total Countries / States / Cities | Count distinct, non-blank shipping countries, states, and cities. |
 | Top State | Returns the state with the most orders using `TOPN`. |
 | Repeat Customers | Counts identified customers with more than one order. |
-| Repeat Customer Rate % | Repeat customers divided by identified customers. |
 
 ## 📊 Charts & Their Uses
 
