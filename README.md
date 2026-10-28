@@ -432,17 +432,6 @@ Key preparation steps included:
 - Created a `Revenue INR` column so that USD and INR orders can be added together.
 - Related `Products[order_id]` (many) to `Orders (2)[order_id]` (one) with single-direction filtering, so shipping country, state and `Region Type` filter the product measures.
 
-The `[Table]` rate values were replaced with null before the column type was changed to Decimal Number:
-
-```powerquery
-Table.ReplaceValue(
-    #"Previous Step",
-    "[Table]",
-    null,
-    Replacer.ReplaceValue,
-    {"usd_inr_rate2"}
-)
-```
 
 The `Region Type` column (in the orders table) uses the same classification as the regional analysis:
 
