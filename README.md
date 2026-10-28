@@ -415,8 +415,7 @@ The objective is to prepare a reliable product-level dataset, build product KPIs
 - Compare product performance across the top countries.
 - Analyse which products sell best in the top Indian states.
 - Track monthly units sold and revenue trends.
-- Compare volume with value to separate popular products from profitable ones.
-- Highlight product, regional and pricing opportunities.
+
 
 ## 🧹 Data Cleaning & Preparation
 
